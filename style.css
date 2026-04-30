@@ -1,0 +1,75 @@
+body {
+    background-color: #f4f7f6;
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 10px; /* Mobile par side se gap ke liye */
+}
+
+.card {
+    background: white;
+    width: 100%;
+    max-width: 400px; /* Laptop par zyada bada nahi hoga */
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    text-align: center;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: #333;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 12px;
+    border: 1.5px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px; /* Mobile par zoom issues se bachne ke liye */
+    box-sizing: border-box;
+    outline: none;
+}
+
+.input-group input:focus {
+    border-color: #007bff;
+}
+
+button {
+    width: 100%;
+    padding: 14px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.result-box {
+    margin-top: 20px;
+    padding: 15px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    display: none; /* Pehle se hide rahega */
+    text-align: left;
+}
+
+.result-box p {
+    margin: 8px 0;
+    font-size: 16px;
+    color: #444;
+    font-weight: 600;
+}
